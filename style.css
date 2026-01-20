@@ -38,8 +38,8 @@
 
         .content-wrapper {
             display: flex;
-            background-color: #F6E27A;
-            background-image:url(img/page_bg.jpg) ;
+    
+            background-image:url("page_bg.jpg") ;
         }
 
         main {
