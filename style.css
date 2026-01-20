@@ -1,0 +1,110 @@
+ body {
+            background-color: #656868; 
+            margin: 30px 0; 
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            font-family: Arial, sans-serif;
+        }
+        .page-border {
+            background-color: white;
+            padding: 5px;
+            width: 640px; 
+        }
+
+        header {
+            background-image: url("header.jpg");
+            background-size: cover;
+            height: 140px; 
+            padding-left: 30px;
+            padding-top: 20px; 
+            box-sizing: border-box;
+            color: #F4F4EE; 
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 38px;
+            letter-spacing: 8px;
+        }
+
+        header p {
+            color: #E2D179;
+            margin: 0;
+            font-size: 14px;
+            letter-spacing: 2px;
+            font-weight: bold;
+        }
+
+        .content-wrapper {
+            display: flex;
+            background-color: #FCF8E3;
+            background-image:url(img/page_bg.jpg) ;
+        }
+
+        main {
+            width: 480px; 
+            padding: 10px;
+            color: #333333;
+            font-size: 13px;
+            line-height: 1.5;
+        }
+
+        main h2 {
+            color: #A0410D;
+            font-size: 16px;
+            margin-top: 5px;
+        }
+
+        aside {
+            width: 160px; 
+            background-color: #f2c94c; 
+            border-left: 1px dotted #A0410D;
+            padding: 10px;
+        }
+
+        .see-also-title {
+            background-color: #595A38;
+            color: white;
+            padding: 5px;
+            font-weight: bold;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .dot {
+            height: 6px;
+            width: 6px;
+            background-color: white;
+            border-radius: 50%;
+        }
+
+        aside h3 {
+            font-size: 14px;
+            color: #3A3B22;
+            margin-bottom: 5px;
+        }
+
+        aside ul {
+            list-style-type: square;
+            padding-left: 20px;
+            margin-top: 0;
+        }
+
+        aside ul li a {
+            color: blue;
+            text-decoration: underline;
+        }
+
+        footer {
+            background-image: url("footer.jpg"); 
+            background-color: #595A38; 
+            height: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #FCF8E3; 
+            font-size: 13px;
+            clear: both;
+        }
